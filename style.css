@@ -1,0 +1,68 @@
+/* 
+etiqueta {
+  propriedad: valor;
+} 
+*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.content {
+  margin: 0 32px;
+}
+
+nav {
+  padding: 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav a {
+  padding: 16px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+#cat {
+  width: 200px;
+  height: 200px;
+}
+
+#dog {
+  width: 200px;
+  height: 200px;
+}
+
+#cat,
+#dog {
+  border-radius: 10%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: space-around;
+}
+
+#img-header {
+  background-image: url("https://cemhri.org/wp-content/uploads/2018/04/Home-Four-Banner-Background-Image.png");
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.download {
+  background-color: red;
+  color: white;
+  margin: 16px;
+  padding: 8px;
+  border: 2px solid yellow;
+}
+
+.download:hover {
+  background-color: yellow;
+  color: black;
+}
